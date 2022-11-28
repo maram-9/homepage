@@ -1,0 +1,128 @@
+.html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.header__titel {
+    color: black;
+    background: hsl(210, 87%, 90%);
+    border: 3px solid;
+    border-radius: 2px;
+}
+
+.body {
+    color: #333;
+    background-color: #eee;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.white {
+    color: black;
+    background-color: white;
+}
+
+.SubHeader {
+    font-style: 40px italic;
+    background-color: #eee;
+}
+
+.navigation {
+    display: contents;
+    list-style: none;
+
+}
+.navigation__ItemList {
+    font-size: 15px;
+    color:teal;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    border: solid rgb(184, 174, 174);
+    border-radius: 5px;
+    border-width: 2px;
+    background-color: #eee;
+}
+
+.navigation__Item {
+    color: black;
+    font-style: unset;
+    font-weight: bold;
+}
+
+.navigation__Item:hover {
+    display:inline-block;
+    color: black;
+    border-bottom: 1px solid; 
+    outline: none;
+}
+
+.main__point {
+    border: solid rgb(184, 174, 174);
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.article {
+    border: solid rgb(184, 174, 174);
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.article__important {
+    color: black;
+    background: hsl(210, 87%, 90%);
+    max-width: 200px;
+    text-align: center;
+    margin: 10px auto;
+    border: 3px solid;
+    border-radius: 2px;   
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableCell {
+    border: 1px solid #ccc;
+    padding: 20px;
+    vertical-align: middle;
+    font-weight: 400 inherit;
+}
+
+.table__ranking {
+    caption-side: bottom;
+    text-align: right;
+}
+
+.tableHeader {
+    background-color: beige;
+    color: #333;
+    font-weight: normal;
+    font-weight: 900;
+}
+
+.tableRow:nth-child(even) {
+    background-color: #eee;
+}
+
+.tableRow:hover {
+    background-color: #ddd;
+}
+
+.container {
+    overflow-x: auto;
+    padding: 30px;
+}
+
+.footer {
+    background-color: grey;
+    border-radius: 3px;
+    font-size: 15px;
+}
