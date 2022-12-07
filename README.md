@@ -1,7 +1,13 @@
-# Marzena Malka - moja pierwsza strona
-
-![Marzena](https://i.postimg.cc/3Nrt9Z4Y/me.jpg)
+# Marzena Malka
+### My fist webside
+![animation](images/Animation.gif)
 
 ## Demo
 
 https://maram-9.github.io/homepage/
+
+## Technologies:
+- HTML
+- JS
+- CSS
+- BEM convention

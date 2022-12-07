@@ -2,9 +2,9 @@ console.log("Witajcie, niestety nie posiadam polskiej klawiatury")
 
 let button = document.querySelector("button");
 let body = document.querySelector(".body");
-let themeName = document.querySelector(".themeName");
+let header__themeName = document.querySelector(".header__themeName");
 
 button.addEventListener("click", () => {
     body.classList.toggle("white");
-    themeName.innerText = body.classList.contains("white") ? "ciemny" : "jasny";
+    header__themeName.innerText = body.classList.contains("white") ? "ciemny" : "jasny";
 });
