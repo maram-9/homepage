@@ -1,5 +1,5 @@
 # Marzena Malka
-### My fist webside
+### My first website
 ![animation](images/Animation.gif)
 
 ## Demo
