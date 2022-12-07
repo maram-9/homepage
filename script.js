@@ -1,10 +1,23 @@
-console.log("Witajcie, niestety nie posiadam polskiej klawiatury")
+{
+    const welcome = ()  => {
+    console.log("Hello, nice to see you!");
+    };
 
-let button = document.querySelector("button");
-let body = document.querySelector(".body");
-let header__themeName = document.querySelector(".header__themeName");
+    const onChangeBackgroundClick = () => {
+        const header__themeName = document.querySelector(".header__themeName");
+        const body = document.querySelector(".body");
+       
+    
 
-button.addEventListener("click", () => {
-    body.classList.toggle("white");
-    header__themeName.innerText = body.classList.contains("white") ? "ciemny" : "jasny";
-});
+        body.classList.toggle("white");
+        header__themeName.innerText = body.classList.contains("white") ? "ciemny" : "jasny";
+    };
+ const init = () => {
+    const header__button = document.querySelector(".header__button");
+    header__button.addEventListener("click", onChangeBackgroundClick);
+
+    welcome();
+ };
+
+    init();
+}
