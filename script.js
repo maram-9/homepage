@@ -1,6 +1,6 @@
 {
     const welcome = ()  => {
-    console.log("Hello, nice to see you!");
+    console.log("Hello, nice to see you");
     };
 
     const onChangeBackgroundClick = () => {
