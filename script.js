@@ -4,15 +4,15 @@
     };
 
     const onChangeBackgroundClick = () => {
-        const header__themeName = document.querySelector(".header__themeName");
+        const headerThemeName = document.querySelector(".headerThemeName");
         const body = document.querySelector(".body");
        
     
 
         body.classList.toggle("white");
-        header__themeName.innerText = body.classList.contains("white") ? "ciemny" : "jasny";
+        headerThemeName.innerText = body.classList.contains("white") ? "ciemny" : "jasny";
     };
- const init = () => {
+    let init = () => {
     const header__button = document.querySelector(".header__button");
     header__button.addEventListener("click", onChangeBackgroundClick);
 
